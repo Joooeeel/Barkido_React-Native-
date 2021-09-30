@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Barkido",
+    "slug": "Barkido",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/barkido.png",
+    "splash": {
+      "image": "./assets/yellow.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffc500"
+    },
+    "userInterfaceStyle": "automatic",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.barkido.barkido",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyA6XDuR47_bS6qeIHGLR4vBhp-i5Rq3AM4"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
